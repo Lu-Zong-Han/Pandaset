@@ -6,9 +6,9 @@
   </ul>
 # Note:
   <p>please check the code in </p>
-  <p>/Pandaset/src/pandaset_viewer/scripts/recorder.py</p>
+  <b>/Pandaset/src/pandaset_viewer/scripts/recorder.py</b>
     <ul>
-      <li>line159: data_path</li>
-      <li>line160: bag_path</li>
+      <li>line159: <b>data_path</b></li>
+      <li>line160: <b>bag_path</b></li>
       <p>is the right path in your file.</p>
     </ul>
