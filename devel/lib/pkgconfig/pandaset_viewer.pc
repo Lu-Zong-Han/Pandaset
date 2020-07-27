@@ -1,0 +1,8 @@
+prefix=/home/ee904/Pandaset/devel
+
+Name: pandaset_viewer
+Description: Description of pandaset_viewer
+Version: 0.0.0
+Cflags: -I/home/ee904/Pandaset/devel/include
+Libs: -L${prefix}/lib 
+Requires: roscpp rospy std_msgs message_runtime

@@ -1,0 +1,2 @@
+pandaset_viewer
+-DCATKIN_DEVEL_PREFIX=/home/ee904/Pandaset/devel -DCMAKE_INSTALL_PREFIX=/home/ee904/Pandaset/install -G Unix Makefiles
