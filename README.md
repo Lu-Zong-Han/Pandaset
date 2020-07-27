@@ -8,7 +8,7 @@
   <p>please check the code in </p>
   <p>/Pandaset/src/pandaset_viewer/scripts/recorder.py</p>
     <ul>
-      <li>data_path
-      <li>bag_path
-      <p>is the right path in your file</p>
+      <li>line159: data_path</li>
+      <li>line160: bag_path</li>
+      <p>is the right path in your file.</p>
     </ul>
