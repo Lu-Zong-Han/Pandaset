@@ -193,8 +193,8 @@ def recorder():
                                                  ,lidar_points[2]
                                                  ,lidar_points[3]
                                                  ,semseg[index][0]))
-            bag.write("lidar_data", lidar, lidar.header.stamp)
-            bag.write("lidar_info", lidar_set, lidar_set.header.stamp)
+            bag.write("/lidar_data", lidar, lidar.header.stamp)
+            bag.write("/lidar_info", lidar_set, lidar_set.header.stamp)
             rate.sleep()
         rospy.loginfo("===lidar_complete===")
         
