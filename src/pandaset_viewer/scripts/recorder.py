@@ -23,7 +23,7 @@ from visualization_msgs.msg import Marker
 from matplotlib import pyplot as plt
 from transformations import quaternion_from_euler, quaternion_from_matrix
 
-m = imp.find_module('pandaset', ['/home/ee904/Pandaset/pandaset-devkit/python'])
+m = imp.find_module('pandaset', ['/Pandaset/pandaset-devkit/python'])
 imp.load_module('pandaset', m[0], m[1], m[2])
 from pandaset.dataset import DataSet
 from pandaset import geometry
@@ -156,9 +156,12 @@ def recorder():
     rospy.init_node('recorder', anonymous = True)
     rate = rospy.Rate(10)
     header = Header()
-    data_path = "/home/ee904/Pandaset/data"
-    bag_path = "/home/ee904/Pandaset/bagfiles/"
+    
+    #please fill the data_path and bag_path
+    data_path = "/Pandaset/data"
+    bag_path = "/Pandaset/bagfiles/"
     dataset = DataSet(data_path)
+    
     for files in dataset.sequences(with_semseg = True):
         f = dataset[files]
         f.load()
